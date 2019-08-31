@@ -9,6 +9,10 @@ setup(
     packages=find_packages('src'),
     package_dir={'':'src'},
     #include_package_data=True,
+    package_data={
+	'static': ['static/*.*'],
+        'r2d2': ['web/*'],
+    },
     install_requires=['setuptools'],
     zip_safe=True,
     author='Rico Castelo',

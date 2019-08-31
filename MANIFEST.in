@@ -1,0 +1,2 @@
+recursive-include src/r2d2/web *
+recursive-include src/r2d2/static *.*
