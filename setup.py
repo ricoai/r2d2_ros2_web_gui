@@ -27,9 +27,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'arm_ctrl_sub = r2d2.ros2.arm_ctrl_sub:main',
-            #'r2d2_adafruit = r2d2.controls.adafruit_server',
-            #'r2d2_arm = r2d2.frame.arms',
+            'r2d2_web_gui = r2d2.ros2.gui.web_gui_pub:main',
         ],
     },
 )
